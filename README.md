@@ -1,4 +1,4 @@
 Whirlwind-Tracker
 =================
 
-Bittorrent Tracker written in Flask.
+Whirlwind is a tracker framework written in Python using the Flask framework.
