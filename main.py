@@ -1,7 +1,7 @@
-from flask import Flask
+from flask import Flask, request
 app = Flask(__name__)
 
-@app.route('/')
+@app.route('/announce', methods=['GET'])
 def root():
     info_hash = request.args.get('info_hash')
     peer_id = request.args.get('peer_id')
